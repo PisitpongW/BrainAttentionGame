@@ -64,6 +64,7 @@ public class timeController : MonoBehaviour {
                 //print("isTimeSet");
                 // timeTimeText.text = Mathf.Floor(Time.time / 60).ToString("00") + " : "
                 // + Mathf.Floor(Time.time % 60).ToString("00"); 
+                print(Time.time);
                 timeCountText.text = Mathf.Floor((Time.time - timeStart) / 60).ToString("00") + " : "
                 + Mathf.Floor((Time.time - timeStart) % 60).ToString("00");
 
